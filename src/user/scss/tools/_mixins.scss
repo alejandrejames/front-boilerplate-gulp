@@ -1,0 +1,25 @@
+@function get-vw-sp($target-size) {
+  @return ($target-size / $sp-design-width) * 100 * 1vw;
+}
+
+@function get-vw($target-size) {
+  @return ($target-size / $pc-design-width) * 100 * 1vw;
+}
+
+@function get-percent($base-size, $design-width) {
+  @return ($base-size / $design-width) * 100%;
+}
+
+@function get-pc($target-size) {
+  @return ($pc-width / $pc-design-width) * $target-size * 1;
+}
+
+@function get-sp($target-size) {
+  @return ($sp-width / $sp-design-width) * $target-size * 1;
+}
+
+@mixin sp {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}

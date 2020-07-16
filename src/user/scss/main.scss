@@ -1,0 +1,13 @@
+@import './settings/settings';
+@import './tools/mixins';
+@import './generic/normalize';
+@import './elements/elements';
+//components
+@import './components/button';
+@import './components/input';
+@import './components/textarea';
+@import './components/select';
+@import './components/modal';
+@import './components/section';
+//end of components
+@import './trumps/trumps';

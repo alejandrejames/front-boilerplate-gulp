@@ -1,0 +1,45 @@
+extend layout.pug
+
+block content
+  section.section
+    .section__heading
+      h3 Button Parts
+    .section__content
+      include ../atoms/button/button.pug
+
+  section.section
+    .section__heading
+      h3 Input texts
+    .section__content
+      include ../atoms/inputs/text.pug
+
+  section.section
+    .section__heading
+      h3 Checkbox parts
+    .section__content
+      include ../atoms/inputs/checkbox.pug
+
+  section.section
+    .section__heading
+      h3 Radio Button Parts
+    .section__content
+      include ../atoms/inputs/radio.pug
+
+  section.section
+    .section__heading
+      h3 Textarea Parts
+    .section__content
+      include ../atoms/textarea/textarea.pug
+  
+  section.section
+    .section__heading
+      h3 Select Parts
+    .section__content
+      include ../atoms/select/select.pug
+  
+  section.section
+    .section__heading
+      h3 Modals
+    .section__content
+      button.button.js-open-modal(data-modal="sampleModal") Click to show modal
+      include ../organisms/modal.pug

@@ -1,0 +1,36 @@
+.input {
+  &__text {
+    padding: 0 1%;
+    width: 100%;
+    height: 40px;
+    font-size: $font-16;
+  }
+
+  &__checkbox {
+    display: flex;
+    align-items: center;
+    font-size: $font-16;
+
+    input {
+      margin-right: 5px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__radio {
+    display: flex;
+    align-items: center;
+    font-size: $font-16;
+
+    input {
+      margin-right: 5px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

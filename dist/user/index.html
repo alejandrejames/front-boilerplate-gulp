@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>PROJECT TITLE</title>
+        <link rel="stylesheet" href="/css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700,900&amp;display=swap&amp;subset=japanese"
+        />
+    </head>
+    <body>
+        <main>
+            <section class="section">
+                <div class="section__heading">
+                    <h3>Button Parts</h3>
+                </div>
+                <div class="section__content">
+                    <button class="button">Sample Button</button>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__heading">
+                    <h3>Input texts</h3>
+                </div>
+                <div class="section__content">
+                    <input class="input__text" />
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__heading">
+                    <h3>Checkbox parts</h3>
+                </div>
+                <div class="section__content">
+                    <label class="input__checkbox" for="sample_checkbox">
+                        <input type="checkbox" id="sample_checkbox" name="sample_checkbox" value="sample_checkbox" />
+                        Sample Checkbox
+                    </label>
+                    <label class="input__checkbox" for="sample_checkbox_2">
+                        <input
+                            type="checkbox"
+                            id="sample_checkbox_2"
+                            name="sample_checkbox_2"
+                            value="sample_checkbox_2"
+                        />
+                        Sample Checkbox 2
+                    </label>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__heading">
+                    <h3>Radio Button Parts</h3>
+                </div>
+                <div class="section__content">
+                    <label class="input__radio" for="sample_radio">
+                        <input type="radio" id="sample_radio" name="sample_radio" value="sample_radio" />
+                        Sample Radio
+                    </label>
+                    <label class="input__radio" for="sample_radio_2">
+                        <input type="radio" id="sample_radio_2" name="sample_radio" value="sample_radio_2" />
+                        Sample Radio 2
+                    </label>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__heading">
+                    <h3>Textarea Parts</h3>
+                </div>
+                <div class="section__content">
+                    <textarea class="textarea" name="sample_textarea"></textarea>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__heading">
+                    <h3>Select Parts</h3>
+                </div>
+                <div class="section__content">
+                    <select class="select" name="sample_select">
+                        <option value="sample_option_1">Sample Option 1</option>
+                        <option value="sample_option_2">Sample Option 2</option>
+                    </select>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__heading">
+                    <h3>Modals</h3>
+                </div>
+                <div class="section__content">
+                    <button class="button js-open-modal" data-modal="sampleModal">Click to show modal</button>
+                    <div class="modal" id="sampleModal">
+                        <div class="modal__overlay js-close-modal"></div>
+                        <div class="modal__container">
+                            <p class="modal__text">This is modal text 3</p>
+                            <div class="modal__footer">
+                                <button class="button js-close-modal">Close Modal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="/js/main.js"></script>
+    </body>
+</html>
