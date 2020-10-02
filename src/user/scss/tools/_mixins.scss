@@ -18,6 +18,14 @@
   @return ($sp-width / $sp-design-width) * $target-size * 1;
 }
 
+@mixin img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  font-family: $object-fit;
+}
+
 @mixin sp {
   @media screen and (max-width: 767px) {
     @content;

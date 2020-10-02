@@ -1,0 +1,12 @@
+.image {
+  width: 100%;
+  height: auto;
+
+  img {
+    @include img-cover;
+  }
+
+  &__container {
+    width: 100%;
+  }
+}

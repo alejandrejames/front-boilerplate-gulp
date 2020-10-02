@@ -6,6 +6,9 @@ block content
       h3 Button Parts
     .section__content
       include ../atoms/button/button.pug
+    br
+    .section__content
+      include ../atoms/button/button-input.pug
 
   section.section
     .section__heading
@@ -36,6 +39,9 @@ block content
       h3 Select Parts
     .section__content
       include ../atoms/select/select.pug
+    br
+    .section__content
+      include ../atoms/select/select-custom.pug
   
   section.section
     .section__heading
@@ -43,3 +49,9 @@ block content
     .section__content
       button.button.js-open-modal(data-modal="sampleModal") Click to show modal
       include ../organisms/modal.pug
+  
+  section.section
+    .section__heading
+      h3 Images
+    .section__content
+      include ../atoms/image/image.pug
